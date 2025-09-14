@@ -52,6 +52,8 @@ on:
 permissions:
   contents: read
 
+run-name: terraform-${{ github.ref }}
+
 jobs:
   terraform:
     name: 'Terraform'
